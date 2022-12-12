@@ -1,0 +1,383 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.my_menu {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #25579c;
+}
+
+
+
+.menu li {
+    list-style: none;
+    width: 170PX;
+    height: 50PX;
+    background-color: #7a026e;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.menu li a:hover {
+    color: blue;
+}
+
+.menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+
+}
+
+div marquee p {
+    text-align: center;
+    font-size: 21px;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 6px;
+
+}
+
+.menu ul li {
+    margin-left: -36px;
+}
+
+.menu ul {
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.subject li {
+    display: none;
+}
+
+.menu li ul li:hover .subject li {
+    display: block;
+    margin-left: 120px;
+}
+
+.subject {
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+
+.subject li {
+    list-style: none;
+    width: 170PX;
+    height: 50PX;
+    background-color: #cddc39;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 18px;
+
+}
+
+
+
+#banner {
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+    margin-top: -52px;
+}
+
+.subject li a {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+
+.secondlast {
+    height: auto;
+
+}
+
+
+.c1last {
+    float: left;
+    height: 840px;
+    width: 20%;
+    background: #74777c;
+}
+
+.c1last i {
+    color: darkblue;
+    font-size: 80px;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.c1last p {
+    margin-left: 52%;
+    font-size: 25px;
+}
+
+.c1last p a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.c1last p a:hover {
+    color: blue;
+}
+
+.c1last i:hover {
+    color: blue;
+}
+
+
+
+
+
+.c2last {
+    float: left;
+    height: 840px;
+    width: 60%;
+    background: #50C878;
+}
+.c2last p{
+    width: 125px;
+    background-color: blue;
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+    animation-name: anni;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anni {
+    0%{
+        margin-top: 0px;
+        height: 0px;
+    }
+    25%{
+        margin-top: 0px;
+        height: 0px;
+        margin-left: 80%;
+    }
+    
+    50%{
+        margin-top: 50px;
+        height: 30px;
+        margin-left: 80%;
+    }
+    75%{
+        margin-top: 50px;
+        height: 30px;
+        margin-left: 0px;
+    }
+    100%{
+        margin-top: 0px;
+        height: 0px;
+    }
+    
+}
+
+
+.c21 {
+    float: left;
+    width: 33%;
+    height: 838px;
+   
+}
+
+.c22 {
+    float: left;
+    width: 33%;
+    height: 838px;
+}
+
+.c23 {
+    float: left;
+    width: 33.2%;
+    height: 838px;
+   
+}
+
+
+
+.c2last .c21 p {
+    color: rgb(19, 16, 16);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0px;
+    padding: 0px;
+    height: 10px;
+    width: 100%;
+    background-color: #2B65EC;
+    animation-name: myanni;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.c2last .c22 p {
+    color: rgb(19, 16, 16);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0px;
+    padding: 0px;
+    height: 10px;
+    width: 100%;
+    background-color: #2B65EC;
+    animation-name: myanni2;
+    animation-duration: 4s;
+    /* animation-delay: 1s;             */
+    animation-iteration-count: infinite;
+    animation-fill-mode:forwards;
+    animation-direction:alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+.c2last .c23 p {
+    color: rgb(19, 16, 16);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0px;
+    padding: 0px;
+    height: 10px;
+    width: 100%;
+    background-color: #2B65EC;
+    animation-name: myanni;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+   
+@keyframes myanni {
+    from {
+        margin-top: 845px;
+        height: 0px;
+    }
+
+    to {
+
+        height: 835px;
+    }
+}
+@keyframes myanni2 {
+    from {
+        margin-top: 845px;
+        height: 0px;
+    }
+
+    to {
+
+        height: 835px;
+    }
+}
+@keyframes myanni3 {
+    from {
+        margin-top: 845px;
+        height: 0px;
+    }
+
+    to {
+
+        height: 835px;
+    }
+}
+   
+
+
+
+
+    .c3last {
+        float: left;
+        height: 840px;
+        width: 20%;
+        background: #74777c;
+    }
+
+    .last {
+        content: normal;
+    }
+
+
+    .div_section {
+        width: 50%;
+        float: left;
+        background: #444444;
+    }
+
+    .s1 {
+        margin-left: 20%;
+        height: 280px;
+    }
+
+    .s1 .icon {
+        margin-left: 25%;
+    }
+
+    .s2 {
+        margin-left: 20%;
+        height: 280px;
+    }
+
+    .div_section p {
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    .s2 h5 {
+        font-size: 15px;
+    }
+
+    .s2 h5 a {
+        color: black;
+    }
+
+    .s1 a {
+        color: black;
+    }
+
+    .s1 p {
+        color: rgb(0, 206, 0);
+    }
+
+    .s2 p {
+        color: rgb(0, 206, 0);
+    }
+
+
+    .icon {
+        height: 100px;
+        width: 100px;
+        font-size: 85px;
+        color: black;
+        transition-duration: 1s;
+    }
+
+    .icon:hover {
+        font-size: 70px;
+        padding-left: 10px;
+    }
