@@ -1,0 +1,441 @@
+html {                  
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.my_menu {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color:blue;
+  background-image: linear-gradient(to right,red,blue,lime,hotpink,red);
+  background-size: 300% 100%;
+  background-position: left center;
+  animation: moveBackground 10s linear infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes moveBackground {
+  from {
+    background-position: -100% center;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+
+
+.menu li {
+  list-style: none;
+  width: 170PX;
+  height: 50PX;
+  background-color:teal;
+ 
+
+  margin-left: 15px;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.menu li:hover {
+  animation-play-state: paused;
+}
+
+
+.menu li a:hover {
+  color: blue;
+}
+
+.menu li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+
+}
+
+div marquee p {
+  
+  text-align: center;
+  font-size: 21px;
+  color: red;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.menu ul li {
+  margin-left: -36px;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.subject li {
+  display: none;
+}
+
+.menu li ul li:hover .subject li {
+  display:block;
+  position: relative;
+  margin-left: 150px;
+}
+
+
+.subject {
+  margin-left: -20px;
+  margin-top: -30px;
+}
+
+
+.subject li {
+  list-style: none;
+  width: 170PX;
+  height: 50PX;
+  background-color: gray;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+
+
+}
+    .subject li {
+      cursor: pointer;
+}
+
+
+
+#banner {
+  width: 100%;
+
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+  margin-top: -52px;
+}
+
+.subject li a {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+
+
+
+
+.c2last {
+  width: 60%;
+  height: 1200px;
+
+}
+
+.c1last,
+.c3last {
+  width: 20%;
+  height: 1200px;
+
+}
+
+
+
+
+
+
+.c1last {
+  float: left;
+
+  background: #74777c;
+}
+
+.c1last i {
+
+  font-size: 80px;
+  margin-left: 1%;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.fa-icons {
+  background: linear-gradient(to right, #f8f206, #0261d7);
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+
+.fa-calendar {
+  background: linear-gradient(to bottom, black, brown, brown, brown, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-note-sticky {
+  background: linear-gradient(to bottom, #e6be19, #e6be19, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-certificate {
+  background: linear-gradient(to right, blue 0%, blue 50%, white, green 50%, green 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.fa-newspaper {
+  background: linear-gradient(to bottom, red, red, red, white, white, red, red, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+.c1last p {
+  margin-left: 52%;
+  font-size: 25px;
+}
+
+.c1last p a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.c1last p a:hover {
+  color: blue;
+}
+
+
+
+
+
+
+.c2last {
+
+  float: left;
+
+
+  background: slategray;
+}
+
+
+.c2row1 {
+  height: 2%;
+}
+
+
+
+.c2row1 p {
+  width: 130px;
+  background-color: blue;
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold;
+  animation-name: anni;
+  animation-duration: 26s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes anni {
+  0% {
+    margin-top: 0px;
+    height: 0px;
+  }
+
+  25% {
+    margin-top: 0px;
+    height: 0px;
+    margin-left: 80%;
+  }
+
+  50% {
+    margin-top: 0px;
+    height: 25px;
+    margin-left: 80%;
+  }
+
+  75% {
+    margin-top: 0px;
+    height: 25px;
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-top: 0px;
+    height: 0px;
+  }
+
+}
+
+.line {
+  border-bottom: 2px solid gold;
+  width: 100%;
+  margin-top: 6px;
+}
+
+
+
+.c3last {
+  float: left;
+
+  background: #74777c;
+}
+
+
+
+
+
+
+
+
+.last {
+  content: normal;
+
+}
+
+
+.div_section {
+  width: 50%;
+  float: left;
+  background: #444444;
+}
+
+.s1 {
+  margin-left: 50px;
+
+
+}
+
+.s1 .icon {
+  margin-left: 40%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+
+}
+
+.fa-school {
+  background: linear-gradient(to right, #FF5733, #DAF7A6, #1ABC9C, #2C3E50, #F9E79F, #FFC300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.s2 {
+  margin-left: 20%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+
+}
+
+.div_section p {
+  font-size: 35px;
+  color: aliceblue;
+}
+
+.s2 h5 {
+  font-size: 20px;
+}
+
+.s2 h5 a {
+  color: black;
+}
+
+.s1 a {
+  color: black;
+}
+
+.s1 p {
+  color: rgb(0, 206, 0);
+}
+
+.s2 p {
+  color: rgb(0, 206, 0);
+}
+
+
+.icon {
+  height: 100px;
+  width: 100px;
+  font-size: 85px;
+  color: black;
+  transition-duration: 1s;
+}
+
+
+
+.fa-envelope {
+  background: linear-gradient(to right, blue, red, yellow, green);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-phone {
+  color: #1ABC9C;
+}
+
+.fa-location-dot {
+  background: linear-gradient(to bottom, blue, red, yellow, green);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon:hover {
+  font-size: 70px;
+  padding-left: 10px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Maheshwori Secondary School</title>
+    <link rel="stylesheet" href="Vstyle.css" type="text/css">
+    <script src="https://kit.fontawesome.com/f83a48fead.js" crossorigin="anonymous"></script>
+    <style>
+      /* Laptop styles */
+      @media (min-width: 992px) {
+        body {
+          font-size: 20px;
+        }
+        h1 {
+          font-size: 3em;
+          text-align: center;
+        }
+        .container video {
+          min-width: 1%;
+          max-width: 90%;
+          height: 80%;
+          margin-left: 20px;
+        }
+      }
+
+      /* Tablet styles */
+      @media (min-width: 768px) and (max-width: 991px) {
+        body {
+          font-size: 18px;
+        }
+        h1 {
+          font-size: 2.5em;
+          text-align: center;
+        }
+        .container video {
+          min-width: 1%;
+          max-width: 80%;
+          height: auto;
+          margin-left: 20px;
+        }
+      }
+
+      /* Mobile styles */
+      @media (max-width: 767px) {
+        body {
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 2em;
+          text-align: left;
+        }
+        .container video {
+          min-width: 1%;
+          max-width: 80%;
+          margin-left: 20px;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main1">
+        <p>WELCOME !</p>
+      </div>
+      <div class="main2">
+        <div class="container">
+          <a href="videos2080.html">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+          </a>
+          <h4 class="Video">All Videos</h4>
+          <video id="video" width="640" height="360" controls>
+            <source src="gallery/2080video/krishna janma astami 2080/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="button-container">
+            <button id="prev-button" class="p"><i class="fa-solid fa-angles-left"></i> Prev</button>
+            <button id="next-button" class="n">Next <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+          <script src="videoscript2080krishnajanmaastami.js"></script>
+        </div>      
+      </div>
+    </div>
+  </body>
+</html>
+
